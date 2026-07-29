@@ -1,7 +1,21 @@
-# 巨人之肩 · Giants' Shoulders
+<div align="center">
 
-> *"If I have seen further it is by standing on the shoulders of Giants."*
-> — Isaac Newton, 1675
+### *"If I have seen further it is by standing on the shoulders of Giants."*
+
+**"如果说我看得更远，那是因为我站在巨人的肩膀上。"**
+
+— Isaac Newton, 1675
+
+<br>
+
+*知识不是从零生长的，它长在前人之上。*
+*每一次创造，都始于先看清脚下已经垒起了多高。*
+
+</div>
+
+---
+
+# 巨人之肩 · Giants' Shoulders
 
 一个给 AI agent 用的 **skill**：在开始任何"从零造东西"的任务前，先上网查一遍——**有没有人做过类似的事？能借鉴什么？和你要做的差在哪？** 然后再动手。
 
