@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="62" fill="#111111" font-size="30" font-weight="500">把搜到的东西分四桶，而不是堆一堆链接</text>
+    <text x="80" y="94" fill="#666666" font-size="15">按"解决同一个问题吗、用同样的思路吗"两条轴归类</text>
+    <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+    <!-- axes -->
+    <line x1="330" y1="180" x2="330" y2="560" stroke="#222222" stroke-width="1"/>
+    <line x1="330" y1="370" x2="1080" y2="370" stroke="#222222" stroke-width="1"/>
+
+    <!-- axis labels -->
+    <text x="705" y="600" text-anchor="middle" fill="#999999" font-size="13">同样的思路　→</text>
+    <text x="150" y="375" fill="#999999" font-size="13">解决同</text>
+    <text x="150" y="393" fill="#999999" font-size="13">一问题</text>
+    <text x="360" y="200" fill="#999999" font-size="12">↑ 是</text>
+    <text x="360" y="558" fill="#999999" font-size="12">↓ 否/已死</text>
+    <text x="1040" y="392" text-anchor="end" fill="#999999" font-size="12">相同 →</text>
+    <text x="392" y="392" fill="#999999" font-size="12">← 不同</text>
+
+    <!-- Q2 top-left: direct match (focus) -->
+    <rect x="360" y="210" width="330" height="140" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <rect x="360" y="210" width="6" height="140" fill="#2F6BFF"/>
+    <circle cx="392" cy="242" r="5" fill="#2F6BFF"/>
+    <text x="410" y="248" fill="#111111" font-size="21" font-weight="600">直接匹配</text>
+    <text x="392" y="288" fill="#666666" font-size="14">同问题，同思路</text>
+    <text x="392" y="314" fill="#777777" font-size="13">几乎就是你想做的——</text>
+    <text x="392" y="334" fill="#777777" font-size="13">重点看它，并往下追一层</text>
+
+    <!-- Q1 top-right: adjacent -->
+    <rect x="720" y="210" width="330" height="140" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+    <text x="752" y="248" fill="#111111" font-size="21" font-weight="500">相邻方案</text>
+    <text x="752" y="288" fill="#666666" font-size="14">同问题，不同思路</text>
+    <text x="752" y="314" fill="#777777" font-size="13">换个角度解决同一件事，</text>
+    <text x="752" y="334" fill="#777777" font-size="13">思路可借鉴</text>
+
+    <!-- Q3 bottom-left: partial -->
+    <rect x="360" y="392" width="330" height="140" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="392" y="430" fill="#111111" font-size="21" font-weight="500">部分方案</text>
+    <text x="392" y="470" fill="#666666" font-size="14">只解决了一部分</text>
+    <text x="392" y="496" fill="#777777" font-size="13">覆盖子问题，</text>
+    <text x="392" y="516" fill="#777777" font-size="13">缺口正是你的空间</text>
+
+    <!-- Q4 bottom-right: abandoned -->
+    <rect x="720" y="392" width="330" height="140" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="752" y="430" fill="#111111" font-size="21" font-weight="500">已废弃</text>
+    <text x="752" y="470" fill="#666666" font-size="14">曾经有，现在停更</text>
+    <text x="752" y="496" fill="#777777" font-size="13">最有教益：</text>
+    <text x="752" y="516" fill="#777777" font-size="13">先搞清它为什么死</text>
+
+    <text x="705" y="640" text-anchor="middle" fill="#999999" font-size="14">每桶最多留 3 条最相关的，别贪多</text>
+  </g>
+</svg>

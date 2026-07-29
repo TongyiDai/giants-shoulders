@@ -1,0 +1,4 @@
+interface:
+  display_name: "巨人之肩"
+  short_description: "Scan prior art online before starting a task"
+  default_prompt: "Use $giants-shoulders to check whether anyone has built something similar before I start."

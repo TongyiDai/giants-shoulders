@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#222222" stroke-width="1"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="62" fill="#111111" font-size="30" font-weight="500">开工前的一条主路径：先调研，再动手</text>
+    <text x="80" y="94" fill="#666666" font-size="15">从还原问题到给出裁决，控制在几分钟内</text>
+    <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+    <!-- main axis -->
+    <line x1="130" y1="340" x2="1070" y2="340" stroke="#222222" stroke-width="1"/>
+
+    <!-- ticks -->
+    <g stroke="#B8B8B8" stroke-width="1">
+      <line x1="130" y1="322" x2="130" y2="358"/>
+      <line x1="365" y1="322" x2="365" y2="358"/>
+      <line x1="600" y1="322" x2="600" y2="358"/>
+      <line x1="835" y1="322" x2="835" y2="358"/>
+      <line x1="1070" y1="322" x2="1070" y2="358"/>
+    </g>
+
+    <!-- step 1 -->
+    <text x="130" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="1">第 1 步</text>
+    <circle cx="130" cy="340" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="130" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="500">还原问题</text>
+    <text x="130" y="422" text-anchor="middle" fill="#777777" font-size="12">用一句话说清</text>
+    <text x="130" y="440" text-anchor="middle" fill="#777777" font-size="12">要解决什么</text>
+
+    <!-- step 2 -->
+    <text x="365" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="1">第 2 步</text>
+    <circle cx="365" cy="340" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="365" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="500">换多种说法</text>
+    <text x="365" y="422" text-anchor="middle" fill="#777777" font-size="12">6–10 个视角</text>
+    <text x="365" y="440" text-anchor="middle" fill="#777777" font-size="12">别只搜一种词</text>
+
+    <!-- step 3 -->
+    <text x="600" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="1">第 3 步</text>
+    <circle cx="600" cy="340" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="600" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="500">多源去搜</text>
+    <text x="600" y="422" text-anchor="middle" fill="#777777" font-size="12">GitHub、包库</text>
+    <text x="600" y="440" text-anchor="middle" fill="#777777" font-size="12">社区、文档</text>
+
+    <!-- step 4 (focus) -->
+    <text x="835" y="300" text-anchor="middle" fill="#2F6BFF" font-size="12" letter-spacing="1" font-weight="600">第 4 步</text>
+    <circle cx="835" cy="340" r="10" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <circle cx="835" cy="340" r="4" fill="#2F6BFF"/>
+    <text x="835" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">往下追一层</text>
+    <text x="835" y="422" text-anchor="middle" fill="#2F6BFF" font-size="12">最容易漏的一步</text>
+    <text x="835" y="440" text-anchor="middle" fill="#777777" font-size="12">别被薄封装骗了</text>
+
+    <!-- step 5 -->
+    <text x="1070" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="1">第 5 步</text>
+    <circle cx="1070" cy="340" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="1070" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="500">给出裁决</text>
+    <text x="1070" y="422" text-anchor="middle" fill="#777777" font-size="12">复用/改造/</text>
+    <text x="1070" y="440" text-anchor="middle" fill="#777777" font-size="12">从零/先查因</text>
+
+    <!-- arrows along axis -->
+    <path d="M150 340 L344 340" fill="none" stroke="#222222" stroke-width="1" marker-end="url(#arr)"/>
+    <path d="M385 340 L579 340" fill="none" stroke="#222222" stroke-width="1" marker-end="url(#arr)"/>
+    <path d="M620 340 L810 340" fill="none" stroke="#222222" stroke-width="1" marker-end="url(#arr)"/>
+    <path d="M858 340 L1049 340" fill="none" stroke="#2F6BFF" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <text x="600" y="540" text-anchor="middle" fill="#999999" font-size="14">预算：一般 3–6 次搜索，最多 10 次；调研不能喧宾夺主</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#B8B8B8" stroke-width="1"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="62" fill="#111111" font-size="30" font-weight="500">调研收尾，只给一个明确裁决</text>
+    <text x="80" y="94" fill="#666666" font-size="15">不含糊、不"看情况"，从五选一里挑一个，然后开工</text>
+    <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+    <!-- hub -->
+    <circle cx="250" cy="380" r="58" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <circle cx="250" cy="380" r="6" fill="#2F6BFF"/>
+    <text x="250" y="372" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">调研</text>
+    <text x="250" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">结果</text>
+    <text x="250" y="470" text-anchor="middle" fill="#999999" font-size="13">一句话核心问题</text>
+
+    <!-- five branches, converging from hub -->
+    <!-- 1 use -->
+    <path d="M308 352 C420 300 520 250 640 236" fill="none" stroke="#2F6BFF" stroke-width="1.5" marker-end="url(#a4)"/>
+    <rect x="660" y="206" width="440" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+    <rect x="660" y="206" width="6" height="56" fill="#2F6BFF"/>
+    <text x="688" y="240" fill="#111111" font-size="19" font-weight="500">直接用现成的</text>
+    <text x="1084" y="240" text-anchor="end" fill="#999999" font-size="13">已经有人做好了</text>
+
+    <!-- 2 fork -->
+    <path d="M312 366 C440 330 540 320 640 314" fill="none" stroke="#B8B8B8" stroke-width="1" marker-end="url(#a4)"/>
+    <rect x="660" y="292" width="440" height="56" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="688" y="326" fill="#111111" font-size="19" font-weight="500">改造 / 扩展它</text>
+    <text x="1084" y="326" text-anchor="end" fill="#999999" font-size="13">最接近的那个 + 补什么</text>
+
+    <!-- 3 contribute -->
+    <path d="M312 388 C460 388 540 392 640 392" fill="none" stroke="#B8B8B8" stroke-width="1" marker-end="url(#a4)"/>
+    <rect x="660" y="378" width="440" height="56" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="688" y="412" fill="#111111" font-size="19" font-weight="500">贡献到上游</text>
+    <text x="1084" y="412" text-anchor="end" fill="#999999" font-size="13">这功能该合进已有项目</text>
+
+    <!-- 4 build -->
+    <path d="M312 402 C440 440 540 460 640 470" fill="none" stroke="#B8B8B8" stroke-width="1" marker-end="url(#a4)"/>
+    <rect x="660" y="464" width="440" height="56" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="688" y="498" fill="#111111" font-size="19" font-weight="500">从零做</text>
+    <text x="1084" y="498" text-anchor="end" fill="#999999" font-size="13">真有空白，差异站得住</text>
+
+    <!-- 5 investigate -->
+    <path d="M306 414 C420 470 520 530 640 548" fill="none" stroke="#B8B8B8" stroke-width="1" marker-end="url(#a4)"/>
+    <rect x="660" y="550" width="440" height="56" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="688" y="584" fill="#111111" font-size="19" font-weight="500">先查为什么失败</text>
+    <text x="1084" y="584" text-anchor="end" fill="#999999" font-size="13">有人试过并放弃了</text>
+  </g>
+</svg>

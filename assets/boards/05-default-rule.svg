@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="62" fill="#111111" font-size="30" font-weight="500">让它开工前自动被调用：三档，越往上越强</text>
+    <text x="80" y="94" fill="#666666" font-size="15">默认软触发已经能用；想更可靠，就写进 agent 的规则</text>
+    <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+    <!-- vertical strength axis on the left -->
+    <text x="96" y="180" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">TRIGGER STRENGTH</text>
+    <line x1="130" y1="230" x2="130" y2="540" stroke="#B8B8B8" stroke-width="1"/>
+    <polyline points="123,242 130,230 137,242" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="150" y="242" fill="#999999" font-size="12">强</text>
+    <text x="150" y="536" fill="#999999" font-size="12">弱</text>
+
+    <!-- Layer C (top, strongest) -->
+    <rect x="210" y="210" width="760" height="92" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+    <rect x="210" y="210" width="8" height="92" fill="#2F6BFF"/>
+    <text x="246" y="248" fill="#111111" font-size="21" font-weight="500">C　打包成插件 + Hook</text>
+    <text x="246" y="278" fill="#666666" font-size="14">安装后自动匹配输入并注入，最接近"装完即生效"</text>
+    <text x="946" y="262" text-anchor="end" fill="#999999" font-size="13">最强 · 各家格式不同</text>
+
+    <!-- Layer B (middle, recommended) -->
+    <rect x="270" y="322" width="700" height="92" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <rect x="270" y="322" width="8" height="92" fill="#2F6BFF"/>
+    <circle cx="306" cy="356" r="5" fill="#2F6BFF"/>
+    <text x="324" y="362" fill="#111111" font-size="21" font-weight="600">B　写进 AGENTS.md / CLAUDE.md（推荐）</text>
+    <text x="324" y="392" fill="#666666" font-size="14">加一条"创造类任务前先调巨人之肩"——跨 agent、一次写入</text>
+    <text x="946" y="376" text-anchor="end" fill="#2F6BFF" font-size="13">install.sh 一键完成</text>
+
+    <!-- Layer A (bottom, default) -->
+    <rect x="330" y="434" width="640" height="92" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <rect x="330" y="434" width="8" height="92" fill="#2F6BFF"/>
+    <text x="366" y="472" fill="#111111" font-size="21" font-weight="500">A　强描述软触发（默认自带）</text>
+    <text x="366" y="502" fill="#666666" font-size="14">靠 skill 描述匹配任务；拷进 skills 目录就有，无需配置</text>
+    <text x="946" y="486" text-anchor="end" fill="#999999" font-size="13">基础 · 开箱即用</text>
+
+    <text x="600" y="586" text-anchor="middle" fill="#999999" font-size="14">三档可叠加：A 保底，B 最划算，C 面向分发</text>
+  </g>
+</svg>

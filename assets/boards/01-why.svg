@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="62" fill="#111111" font-size="30" font-weight="500">与其从零造轮子，不如先站上巨人的肩膀</text>
+    <text x="80" y="94" fill="#666666" font-size="15">开工前花几分钟查现有方案，比闷头重写省得多</text>
+    <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+    <!-- seam: the tension line down the middle -->
+    <line x1="600" y1="176" x2="600" y2="588" stroke="#B8B8B8" stroke-width="1" stroke-dasharray="2 6"/>
+
+    <!-- LEFT: from scratch -->
+    <text x="120" y="184" fill="#999999" font-size="12" font-weight="600" letter-spacing="2">从零开始</text>
+    <rect x="120" y="212" width="360" height="72" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="148" y="245" fill="#111111" font-size="19" font-weight="500">重复踩别人踩过的坑</text>
+    <text x="148" y="270" fill="#777777" font-size="13">同一个问题，再翻一次车</text>
+    <rect x="120" y="308" width="360" height="72" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="148" y="341" fill="#111111" font-size="19" font-weight="500">错过成熟方案</text>
+    <text x="148" y="366" fill="#777777" font-size="13">有现成的库/工具却不知道</text>
+    <rect x="120" y="404" width="360" height="72" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+    <text x="148" y="437" fill="#111111" font-size="19" font-weight="500">白花时间</text>
+    <text x="148" y="462" fill="#777777" font-size="13">做出来才发现早有人做过</text>
+
+    <!-- RIGHT: on shoulders -->
+    <text x="720" y="184" fill="#2F6BFF" font-size="12" font-weight="600" letter-spacing="2">站在巨人肩上</text>
+    <rect x="720" y="212" width="360" height="72" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+    <rect x="720" y="212" width="6" height="72" fill="#2F6BFF"/>
+    <text x="752" y="245" fill="#111111" font-size="19" font-weight="500">复用验证过的做法</text>
+    <text x="752" y="270" fill="#666666" font-size="13">从当前前沿起步，不从空白页</text>
+    <rect x="720" y="308" width="360" height="72" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+    <rect x="720" y="308" width="6" height="72" fill="#2F6BFF"/>
+    <text x="752" y="341" fill="#111111" font-size="19" font-weight="500">避开已知死路</text>
+    <text x="752" y="366" fill="#666666" font-size="13">别人失败的地方先绕开</text>
+    <rect x="720" y="404" width="360" height="72" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+    <rect x="720" y="404" width="6" height="72" fill="#2F6BFF"/>
+    <text x="752" y="437" fill="#111111" font-size="19" font-weight="500">看清真正的差异</text>
+    <text x="752" y="462" fill="#666666" font-size="13">你的活儿，长在巨人之上</text>
+
+    <!-- shift marker on the seam -->
+    <circle cx="600" cy="440" r="26" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <circle cx="600" cy="440" r="5" fill="#2F6BFF"/>
+    <path d="M566 440 L520 440" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+    <path d="M634 440 L680 440" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+    <polyline points="672,434 680,440 672,446" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+
+    <text x="600" y="556" text-anchor="middle" fill="#999999" font-size="14">同一个起点，向右移一步：先看看有没有人做过</text>
+  </g>
+</svg>
