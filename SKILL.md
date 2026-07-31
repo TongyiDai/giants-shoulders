@@ -10,6 +10,8 @@ description: |
 
 ## Overview
 
+先运行 `scripts/doctor.sh --json` 检查本地安装。随后确认当前 Agent 是否提供网页搜索、代码托管搜索和页面抓取能力；能力缺失时输出 `blocked_no_search`，不要用记忆补齐调研结果。详细运行约定见 [runtime.md](references/runtime.md)。
+
 Before building something new, find out who already built something like it.
 Most ideas have been tried: some solved well, some solved badly, some abandoned
 for instructive reasons, a few genuinely open. The goal is not to copy — it is

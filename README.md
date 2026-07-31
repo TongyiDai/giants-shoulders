@@ -69,6 +69,19 @@
 
 ## 安装
 
+安装后可运行 `scripts/doctor.sh --json`。它只检查本地安装，不会联网，也不会修改 Agent 配置。
+
+### Agent 使用说明
+
+| 项目 | 约定 |
+|---|---|
+| 首步 | `scripts/doctor.sh --json`，再确认当前宿主有网页/代码搜索能力 |
+| 调研输出 | 直接匹配、相邻方案、部分方案、已废弃四桶，最后给一个裁决 |
+| 无网络时 | 输出 `blocked_no_search`，不凭记忆补齐现成方案 |
+| 默认边界 | 3–6 次搜索，最多 10 次；每个复用建议附链接、维护信号和许可证 |
+
+运行约定见 [`references/runtime.md`](references/runtime.md)。
+
 把 skill 文件夹放进你 agent 的 skills 目录即可：
 
 ```bash
