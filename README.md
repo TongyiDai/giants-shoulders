@@ -1,3 +1,5 @@
+> “If I have seen further it is by standing on the shoulders of Giants.” — Isaac Newton, 1675
+
 <div align="center">
 
 ### *"If I have seen further it is by standing on the shoulders of Giants."*
@@ -21,6 +23,23 @@
 
 适用于任何能联网搜索的 agent：Claude Code、Codex、Cursor、TRAE 等。
 
+## Agent 使用契约（运行前必读）
+
+这是创造类任务的首步调研 Skill。Agent 先把用户要解决的问题写成一句话，再用多组搜索词查公开先例，最后给出一个裁决并继续后续工作。
+
+| 项目 | 规则 |
+| --- | --- |
+| 触发 | 建工具、脚本、库、CLI、Skill、插件、Agent、工作流、集成、原型或产品；设计架构和技术选型 |
+| 首步 | 重述问题与目标动作；随后使用宿主提供的搜索能力，不先写代码 |
+| 输入 | 用户目标、约束、候选技术、受众和预期交付 |
+| 输出 | 直接匹配、相邻方案、部分方案、已废弃四桶；每桶最多 3 条，并给出一个明确裁决 |
+| 证据 | 每个保留方案附官方链接、许可证、维护状态和与当前任务的差异 |
+| 范围 | 控制在约 3–6 次搜索；“未找到可验证先例”可以作为结论 |
+| 写入 | 调研阶段只读外部信息，不修改项目文件；安装脚本需要用户明确同意后才改配置 |
+| 降级 | 搜索能力不可用时说明无法完成先例扫描，不把记忆或弱匹配写成事实 |
+
+完成调研后必须继续原任务，除非用户要求先停在方案比较阶段。
+
 ---
 
 ## 为什么需要它
@@ -29,7 +48,7 @@
 
 "巨人之肩"不是让你抄，而是让你**从当前前沿起步，而不是从一张白纸起步**：复用验证过的做法，绕开已知的死路，然后把精力花在真正属于你的那部分差异上。
 
-![为什么需要它](assets/boards/01-why.png)
+<p align="center"><img src="assets/boards/01-why.png" alt="为什么需要它" width="900" /></p>
 
 ---
 
@@ -37,7 +56,7 @@
 
 触发后，它跑一条固定的"开工前调研"主路径，控制在几分钟内：
 
-![工作流](assets/boards/02-workflow.png)
+<p align="center"><img src="assets/boards/02-workflow.png" alt="工作流" width="900" /></p>
 
 1. **还原问题** —— 用一句话说清你到底要解决什么（是问题本身，不是你选的方案）。
 2. **换多种说法** —— 同一个问题写出 6–10 个不同视角的说法（使用者视角、学术视角、底层实现、隔壁学科…），避免所有搜索词都撞进同一个语义簇。
@@ -47,13 +66,13 @@
 
 ### 把搜到的分四桶，而不是堆一堆链接
 
-![四桶归类](assets/boards/03-four-buckets.png)
+<p align="center"><img src="assets/boards/03-four-buckets.png" alt="四桶归类" width="900" /></p>
 
 按"是否解决同一个问题、是否用同样的思路"两条轴，把结果分成**直接匹配 / 相邻方案 / 部分方案 / 已废弃**四类。每桶最多留 3 条最相关的。其中"已废弃"往往最有教益——先搞清它为什么死。
 
 ### 只给一个明确裁决
 
-![五种裁决](assets/boards/04-verdicts.png)
+<p align="center"><img src="assets/boards/04-verdicts.png" alt="五种裁决" width="900" /></p>
 
 不含糊、不"看情况"。从五个里挑一个，附一句理由和下一步：
 
@@ -87,7 +106,7 @@ git clone https://github.com/TongyiDai/giants-shoulders.git \
 
 默认情况下，skill 靠**描述匹配**触发——写得准，agent 遇到创造类任务就会主动调它。想让它更可靠地在每次开工前被调用，有三档，越往上越强，可以叠加：
 
-![三档触发](assets/boards/05-default-rule.png)
+<p align="center"><img src="assets/boards/05-default-rule.png" alt="三档触发" width="900" /></p>
 
 - **A · 强描述软触发**（默认自带）：拷进 skills 目录就有，无需配置。
 - **B · 写进 `AGENTS.md` / `CLAUDE.md`**（推荐）：加一条"创造类任务前先调巨人之肩"的规则，跨 agent 通用、一次写入。
