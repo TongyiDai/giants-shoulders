@@ -1,5 +1,11 @@
 > “If I have seen further it is by standing on the shoulders of Giants.” — Isaac Newton, 1675
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
+  <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
+  <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
+</p>
+
 <div align="center">
 
 ### *"If I have seen further it is by standing on the shoulders of Giants."*
