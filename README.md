@@ -78,7 +78,7 @@
 
 ### 只给一个明确裁决
 
-<p align="center"><img src="assets/boards/04-verdicts.png" alt="五种裁决" width="900" /></p>
+<p align="center"><img src="assets/boards/04-verdicts.png?v=2" alt="五种裁决" width="900" /></p>
 
 不含糊、不"看情况"。从五个里挑一个，附一句理由和下一步：
 

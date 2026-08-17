@@ -10,7 +10,7 @@
 
     <!-- hub -->
     <circle cx="250" cy="380" r="58" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
-    <circle cx="250" cy="380" r="6" fill="#2F6BFF"/>
+    
     <text x="250" y="372" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">调研</text>
     <text x="250" y="398" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">结果</text>
     <text x="250" y="470" text-anchor="middle" fill="#999999" font-size="13">一句话核心问题</text>
