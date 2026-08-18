@@ -17,7 +17,7 @@
 
 ---
 
-# 巨人之肩 · Giants' Shoulders
+<h1 align="center">巨人之肩 · Giants' Shoulders</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
