@@ -20,6 +20,7 @@
 <h1 align="center">巨人之肩 · Giants' Shoulders</h1>
 
 <p align="center">
+  <a href="https://github.com/TongyiDai/giants-shoulders/actions/workflows/ci.yml"><img src="https://github.com/TongyiDai/giants-shoulders/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
   <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
   <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
